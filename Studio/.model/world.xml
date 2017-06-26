@@ -9,6 +9,8 @@
     <domain uuid="_an9P8VqIEeeXq_j46yErsA" name="local"
         visibility="300">
       <typeSet uuid="_an9P8lqIEeeXq_j46yErsA" bitSet="393231"/>
+      <values uuid="_hpNsMFqIEeeXq_j46yErsA" name="1"
+          editable="false" visibility="300" displayName="one"/>
     </domain>
   </variables>
   <role uuid="_qucXoHAAEeSk24oMIozLgA" name="insertfree"
