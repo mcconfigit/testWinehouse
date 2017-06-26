@@ -127,6 +127,10 @@
     <inTypeSet uuid="_GIHvnqTqEea8d6P1JTl01w" bitSet="458767"/>
     <outTypeSet uuid="_GIHvn6TqEea8d6P1JTl01w" bitSet="458767"/>
   </tables>
+  <tables uuid="_DKC-kFqJEeeXq_j46yErsA" name="Extra_Data_Table">
+    <inTypeSet uuid="_DKC-k1qJEeeXq_j46yErsA" bitSet="458767"/>
+    <outTypeSet uuid="_DKC-lFqJEeeXq_j46yErsA" bitSet="458767"/>
+  </tables>
   <modeldescription uuid="_GIIWoKTqEea8d6P1JTl01w" pmid="BuildModel">
     <version uuid="_GIJkwKTqEea8d6P1JTl01w" major="1"/>
   </modeldescription>
