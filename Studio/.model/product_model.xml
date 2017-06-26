@@ -128,6 +128,7 @@
     <outTypeSet uuid="_GIHvn6TqEea8d6P1JTl01w" bitSet="458767"/>
   </tables>
   <tables uuid="_DKC-kFqJEeeXq_j46yErsA" name="Extra_Data_Table">
+    <rows uuid="_IrhDEFqJEeeXq_j46yErsA" in="1" out="2"/>
     <inTypeSet uuid="_DKC-k1qJEeeXq_j46yErsA" bitSet="458767"/>
     <outTypeSet uuid="_DKC-lFqJEeeXq_j46yErsA" bitSet="458767"/>
   </tables>
