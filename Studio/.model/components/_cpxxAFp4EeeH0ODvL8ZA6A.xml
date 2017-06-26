@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
     uuid="_cpxxAFp4EeeH0ODvL8ZA6A" name="BB">
   <geometry deletable="false" uuid="_cpxxAVp4EeeH0ODvL8ZA6A"
       name="root">
+    <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_YeTJ4FqKEeeXq_j46yErsA"
+        name="Interactive_SVG" checksum="6df1239c31663f629047871594dc5b49a396ce99">
+      <file href="../../model.build#_cq8JcFqKEeeXq_j46yErsA"/>
+    </twoDElement>
     <parentPlugs uuid="_cpxxAlp4EeeH0ODvL8ZA6A" name="ParentPlug"/>
   </geometry>
 </comp:Component>
