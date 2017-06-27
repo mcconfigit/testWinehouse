@@ -2,7 +2,7 @@
 <comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
-    uuid="_DGilEFstEeeBro-i9pgyng" name="Component"
+    uuid="_DGilEFstEeeBro-i9pgyng" name="Component3"
     displayName="Comp">
   <variables xsi:type="comp:DeclaredVariable" uuid="_ziSXkFstEeeBro-i9pgyng"
       name="Variable" visibility="800">
@@ -16,4 +16,13 @@
       name="root">
     <parentPlugs uuid="_DGilElstEeeBro-i9pgyng" name="ParentPlug"/>
   </geometry>
+  <roles uuid="_QSLCcFs5EeeYk-dXcw5D9g" name="R">
+    <facets xsi:type="comp:PlugFacet" uuid="_QSLphls5EeeYk-dXcw5D9g"/>
+    <domain uuid="_QSLCcVs5EeeYk-dXcw5D9g" name="local"
+        visibility="300">
+      <typeSet uuid="_QSLCcls5EeeYk-dXcw5D9g" bitSet="65536"/>
+      <values uuid="_QSLCc1s5EeeYk-dXcw5D9g" name="NONE"
+          editable="false" visibility="300"/>
+    </domain>
+  </roles>
 </comp:Component>
