@@ -103,6 +103,8 @@
       name="NPE error.PNG" relativePath="images/NPE error.PNG"/>
   <externalResources uuid="_vcEG4FseEeeo3tR_H273bA"
       name="svgEditor.PNG" relativePath="images/svgEditor.PNG"/>
+  <externalResources uuid="_0GNh0FseEeeo3tR_H273bA"
+      name="tomas3.png" relativePath="images/tomas3.png"/>
   <productModel href=".model/product_model.xml#_GD7MEKTqEea8d6P1JTl01w"/>
   <exporterModel href=".model/exporter_model.xml#_GD4IwKTqEea8d6P1JTl01w"/>
   <guiModel href=".model/gui_model.xml#_GDdSAKTqEea8d6P1JTl01w"/>
