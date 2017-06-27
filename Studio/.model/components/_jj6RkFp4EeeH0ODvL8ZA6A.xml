@@ -14,4 +14,13 @@
       name="root">
     <parentPlugs uuid="_jj6Rklp4EeeH0ODvL8ZA6A" name="ParentPlug"/>
   </geometry>
+  <roles uuid="_dEz4MFsdEeeWIdjUvcDpzg" name="Role">
+    <facets xsi:type="comp:PlugFacet" uuid="_dEz4OlsdEeeWIdjUvcDpzg"/>
+    <domain uuid="_dEz4MVsdEeeWIdjUvcDpzg" name="local"
+        visibility="300">
+      <typeSet uuid="_dEz4MlsdEeeWIdjUvcDpzg" bitSet="65536"/>
+      <values uuid="_dEz4M1sdEeeWIdjUvcDpzg" name="NONE"
+          editable="false" visibility="300"/>
+    </domain>
+  </roles>
 </comp:Component>
