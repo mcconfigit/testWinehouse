@@ -41,7 +41,7 @@
     <units uuid="_fdGZwFdAEeWo-40Qyxiobw" name="move_next"
         rotation="100.0">
       <facets xsi:type="comp:GeoUnitLineJointFacet"
-          uuid="_GDCbQKTqEea8d6P1JTl01w" variable="width"/>
+          uuid="_GDCbQKTqEea8d6P1JTl01w" variable="monica"/>
     </units>
     <units uuid="_dbbngFdBEeWo-40Qyxiobw" name="move_subs">
       <facets xsi:type="comp:GeoUnitLineJointFacet"
