@@ -2,7 +2,8 @@
 <comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
-    uuid="_DGilEFstEeeBro-i9pgyng" name="Component">
+    uuid="_DGilEFstEeeBro-i9pgyng" name="Component"
+    displayName="Comp">
   <variables xsi:type="comp:DeclaredVariable" uuid="_ziSXkFstEeeBro-i9pgyng"
       name="Variable" visibility="800">
     <domain uuid="_ziSXkVstEeeBro-i9pgyng" name="local"
