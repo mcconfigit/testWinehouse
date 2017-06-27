@@ -17,13 +17,121 @@
     <parentPlugs uuid="_gOr3olp3EeeH0ODvL8ZA6A" name="ParentPlug"/>
   </geometry>
   <rulesVT uuid="_PxiXMFsQEeevb7WtLo6j4w" name="VT_Rule"
-      checksum="cff1798126d0317f2809113d75e77d2306e45cb8"
+      checksum="78ec8d7bd85132221af9f1efb459859dcf5574da"
       modelType="VT_Model" language="None">
     <fileVT href="../../model.build#_NCL1AFsQEeevb7WtLo6j4w"/>
     <properties>VT type</properties>
     <properties>Build type</properties>
     <properties>Domain</properties>
-    <currentVariables uuid="_Qk_0cFsQEeevb7WtLo6j4w"
+    <currentVariables uuid="_yIbH0FsQEeevb7WtLo6j4w"
+        name="boolVar1" inUse="TRUE" alias="boolVar1">
+      <domain uuid="_yIbH0VsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_yIbH0lsQEeevb7WtLo6j4w" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_yIbH01sQEeevb7WtLo6j4w"
+        name="stringVar1" inUse="TRUE" alias="stringVar1">
+      <domain uuid="_yIbH1FsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_yIbH1VsQEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbH1lsQEeevb7WtLo6j4w"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbH11sQEeevb7WtLo6j4w"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbH2FsQEeevb7WtLo6j4w"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbH2VsQEeevb7WtLo6j4w"
+            name="str4" editable="false" displayName="str4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3, str4]"/>
+    </currentVariables>
+    <currentVariables uuid="_yIbH2lsQEeevb7WtLo6j4w"
+        name="stringVar2" inUse="TRUE" alias="stringVar2">
+      <domain uuid="_yIbH21sQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_yIbH3FsQEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbH3VsQEeevb7WtLo6j4w"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu4FsQEeevb7WtLo6j4w"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu4VsQEeevb7WtLo6j4w"
+            name="str4" editable="false" displayName="str4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu4lsQEeevb7WtLo6j4w"
+            name="str5" editable="false" displayName="str5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu41sQEeevb7WtLo6j4w"
+            name="str6" editable="false" displayName="str6"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str2, str3, str4, str5, str6]"/>
+    </currentVariables>
+    <currentVariables uuid="_yIbu5FsQEeevb7WtLo6j4w"
+        name="setFromStringVar1" inUse="TRUE" alias="setFromStringVar1">
+      <domain uuid="_yIbu5VsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_yIbu5lsQEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu51sQEeevb7WtLo6j4w"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu6FsQEeevb7WtLo6j4w"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu6VsQEeevb7WtLo6j4w"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu6lsQEeevb7WtLo6j4w"
+            name="str4" editable="false" displayName="str4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3, str4]"/>
+    </currentVariables>
+    <currentVariables uuid="_yIbu61sQEeevb7WtLo6j4w"
+        name="setFromStringVar2" inUse="TRUE" alias="setFromStringVar2">
+      <domain uuid="_yIbu7FsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_yIbu7VsQEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu7lsQEeevb7WtLo6j4w"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu71sQEeevb7WtLo6j4w"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu8FsQEeevb7WtLo6j4w"
+            name="str4" editable="false" displayName="str4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu8VsQEeevb7WtLo6j4w"
+            name="str5" editable="false" displayName="str5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu8lsQEeevb7WtLo6j4w"
+            name="str6" editable="false" displayName="str6"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str2, str3, str4, str5, str6]"/>
+    </currentVariables>
+    <currentVariables uuid="_yIbu81sQEeevb7WtLo6j4w"
+        name="stringCont" inUse="TRUE" alias="stringCont">
+      <domain uuid="_yIbu9FsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_yIbu9VsQEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu9lsQEeevb7WtLo6j4w"
+            name="1" editable="false" displayName="1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu91sQEeevb7WtLo6j4w"
+            name="2" editable="false" displayName="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu-FsQEeevb7WtLo6j4w"
+            name="3" editable="false" displayName="3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu-VsQEeevb7WtLo6j4w"
+            name="4" editable="false" displayName="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu-lsQEeevb7WtLo6j4w"
+            name="5" editable="false" displayName="5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_yIbu-1sQEeevb7WtLo6j4w"
+            name="6" editable="false" displayName="6"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[1, 2, 3, 4, 5, 6]"/>
+    </currentVariables>
+    <previousVariables uuid="_Qk_0cFsQEeevb7WtLo6j4w"
         name="test1.var1" inUse="TRUE" alias="test1.var1">
       <domain uuid="_Qk_0cVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -38,8 +146,8 @@
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
       <properties key="Domain" value="[str1, str2, str3]"/>
-    </currentVariables>
-    <currentVariables uuid="_QlFUAFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QlFUAFsQEeevb7WtLo6j4w"
         name="test1.var2" inUse="TRUE" alias="test1.var2">
       <domain uuid="_QlFUAVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -54,8 +162,8 @@
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
       <properties key="Domain" value="[str1, str2, str3]"/>
-    </currentVariables>
-    <currentVariables uuid="_QlHJMFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QlHJMFsQEeevb7WtLo6j4w"
         name="test2.var1" inUse="TRUE" alias="test2.var1">
       <domain uuid="_QlHJMVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -68,8 +176,8 @@
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
       <properties key="Domain" value="[str1, str2]"/>
-    </currentVariables>
-    <currentVariables uuid="_QlHwQFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QlHwQFsQEeevb7WtLo6j4w"
         name="test2.var2" inUse="TRUE" alias="test2.var2">
       <domain uuid="_QlHwQVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -86,8 +194,8 @@
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
       <properties key="Domain" value="[str1, str2, str3, str4]"/>
-    </currentVariables>
-    <currentVariables uuid="_QlKMgFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QlKMgFsQEeevb7WtLo6j4w"
         name="rangeEquals.range1" inUse="TRUE" alias="rangeEquals.range1">
       <domain uuid="_QlKMgVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -298,8 +406,8 @@
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
       <properties key="Domain" value="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]"/>
-    </currentVariables>
-    <currentVariables uuid="_Ql4lQFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_Ql4lQFsQEeevb7WtLo6j4w"
         name="rangeEquals.range2" inUse="TRUE" alias="rangeEquals.range2">
       <domain uuid="_Ql4lQVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -510,8 +618,8 @@
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
       <properties key="Domain" value="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]"/>
-    </currentVariables>
-    <currentVariables uuid="_QmlI0FsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QmlI0FsQEeevb7WtLo6j4w"
         name="rangeNarrow.range1" inUse="TRUE" alias="rangeNarrow.range1">
       <domain uuid="_QmlI0VsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -722,8 +830,8 @@
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
       <properties key="Domain" value="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]"/>
-    </currentVariables>
-    <currentVariables uuid="_QnNa8FsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QnNa8FsQEeevb7WtLo6j4w"
         name="rangeNarrow.range2" inUse="TRUE" alias="rangeNarrow.range2">
       <domain uuid="_QnNa8VsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -934,8 +1042,8 @@
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
       <properties key="Domain" value="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]"/>
-    </currentVariables>
-    <currentVariables uuid="_QoBTQFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QoBTQFsQEeevb7WtLo6j4w"
         name="integerEquals.integer1" inUse="TRUE" alias="integerEquals.integer1">
       <domain uuid="_QoBTQVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -944,8 +1052,8 @@
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
       <properties key="Domain" value="[]"/>
-    </currentVariables>
-    <currentVariables uuid="_QoB6UFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QoB6UFsQEeevb7WtLo6j4w"
         name="integerEquals.integer2" inUse="TRUE" alias="integerEquals.integer2">
       <domain uuid="_QoB6UVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -954,8 +1062,8 @@
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
       <properties key="Domain" value="[]"/>
-    </currentVariables>
-    <currentVariables uuid="_QoChYFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QoChYFsQEeevb7WtLo6j4w"
         name="integerNarrow.integer1" inUse="TRUE" alias="integerNarrow.integer1">
       <domain uuid="_QoChYVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -964,8 +1072,8 @@
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
       <properties key="Domain" value="[]"/>
-    </currentVariables>
-    <currentVariables uuid="_QoDIcFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QoDIcFsQEeevb7WtLo6j4w"
         name="integerNarrow.integer2" inUse="TRUE" alias="integerNarrow.integer2">
       <domain uuid="_QoDIcVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -974,8 +1082,8 @@
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
       <properties key="Domain" value="[]"/>
-    </currentVariables>
-    <currentVariables uuid="_QoDvgFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QoDvgFsQEeevb7WtLo6j4w"
         name="FloatEquals.float1" inUse="TRUE" alias="FloatEquals.float1">
       <domain uuid="_QoDvgVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -984,8 +1092,8 @@
       <properties key="VT type" value="Float"/>
       <properties key="Build type" value="float"/>
       <properties key="Domain" value="[]"/>
-    </currentVariables>
-    <currentVariables uuid="_QoEWkFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QoEWkFsQEeevb7WtLo6j4w"
         name="FloatEquals.float2" inUse="TRUE" alias="FloatEquals.float2">
       <domain uuid="_QoEWkVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -994,8 +1102,8 @@
       <properties key="VT type" value="Float"/>
       <properties key="Build type" value="float"/>
       <properties key="Domain" value="[]"/>
-    </currentVariables>
-    <currentVariables uuid="_QoE9oFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QoE9oFsQEeevb7WtLo6j4w"
         name="floatNarrow.float1" inUse="TRUE" alias="floatNarrow.float1">
       <domain uuid="_QoE9oVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -1004,8 +1112,8 @@
       <properties key="VT type" value="Float"/>
       <properties key="Build type" value="float"/>
       <properties key="Domain" value="[]"/>
-    </currentVariables>
-    <currentVariables uuid="_QoGLwFsQEeevb7WtLo6j4w"
+    </previousVariables>
+    <previousVariables uuid="_QoGLwFsQEeevb7WtLo6j4w"
         name="floatNarrow.float2" inUse="TRUE" alias="floatNarrow.float2">
       <domain uuid="_QoGLwVsQEeevb7WtLo6j4w" name="local"
           visibility="300">
@@ -1014,6 +1122,6 @@
       <properties key="VT type" value="Float"/>
       <properties key="Build type" value="float"/>
       <properties key="Domain" value="[]"/>
-    </currentVariables>
+    </previousVariables>
   </rulesVT>
 </comp:Component>
