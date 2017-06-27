@@ -89,8 +89,6 @@
       name="testVT.vtz" relativePath="VT/testVT.vtz"/>
   <externalResources uuid="_tuhHUFsbEeecZJ9Bu5iBqQ"
       name="Res222.PNG" relativePath="images/Res222.PNG"/>
-  <externalResources uuid="_-IveEFsbEeecZJ9Bu5iBqQ"
-      name="Res222.PNG" relativePath="images/Res222.PNG"/>
   <externalResources uuid="_d8WZoFscEeeWIdjUvcDpzg"
       name="Res11.PNG" relativePath="images/Res11.PNG"/>
   <productModel href=".model/product_model.xml#_GD7MEKTqEea8d6P1JTl01w"/>
