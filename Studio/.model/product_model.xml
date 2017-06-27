@@ -134,7 +134,7 @@
     <outTypeSet uuid="_DKC-lFqJEeeXq_j46yErsA" bitSet="458767"/>
   </tables>
   <tables uuid="_ppyDYFsXEeevb7WtLo6j4w" name="table">
-    <rows uuid="_qczbwFsXEeevb7WtLo6j4w" in="1" out="2"/>
+    <rows uuid="_qczbwFsXEeevb7WtLo6j4w" in="1" out="3"/>
     <inTypeSet uuid="_ppyDY1sXEeevb7WtLo6j4w" bitSet="458767"/>
     <outTypeSet uuid="_ppyDZFsXEeevb7WtLo6j4w" bitSet="458767"/>
   </tables>
