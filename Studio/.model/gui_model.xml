@@ -235,7 +235,9 @@
     <panels uuid="_ITMrcFsSEeevb7WtLo6j4w">
       <panels uuid="_Ij7PEFsSEeevb7WtLo6j4w" name="Panel">
         <items xsi:type="gui:Button" uuid="_JEK1YFsSEeevb7WtLo6j4w"
-            name="Button" style="_3QgI8bbqEeK305n3PlGMhg"/>
+            name="Button" style="_3QgI8bbqEeK305n3PlGMhg">
+          <image href="../model.build#_0aipgFsSEeevb7WtLo6j4w"/>
+        </items>
       </panels>
     </panels>
   </guiUnits>
