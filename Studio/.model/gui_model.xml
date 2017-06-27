@@ -238,6 +238,10 @@
             name="Button" style="_3QgI8bbqEeK305n3PlGMhg">
           <image href="../model.build#_0aipgFsSEeevb7WtLo6j4w"/>
         </items>
+        <items xsi:type="gui:Button" uuid="_LACPsFsTEeevb7WtLo6j4w"
+            name="Button1" style="_3QgI8bbqEeK305n3PlGMhg">
+          <image href="../model.build#_0aipgFsSEeevb7WtLo6j4w"/>
+        </items>
       </panels>
     </panels>
   </guiUnits>
