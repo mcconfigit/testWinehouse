@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
     uuid="_cpxxAFp4EeeH0ODvL8ZA6A" name="BB">
   <geometry deletable="false" uuid="_cpxxAVp4EeeH0ODvL8ZA6A"
@@ -11,4 +12,124 @@
     </twoDElement>
     <parentPlugs uuid="_cpxxAlp4EeeH0ODvL8ZA6A" name="ParentPlug"/>
   </geometry>
+  <rulesVT uuid="_gWYFsFsUEeevb7WtLo6j4w" name="VT_Rule"
+      checksum="b475c036ff6f3d5becdf7181b016f1792d29fd1e"
+      modelType="VT_Model" language="None">
+    <fileVT href="../../model.build#_fR8NMFsUEeevb7WtLo6j4w"/>
+    <properties>VT type</properties>
+    <properties>Build type</properties>
+    <properties>Domain</properties>
+    <currentVariables uuid="_g-E-4FsUEeevb7WtLo6j4w"
+        name="boolVar1" inUse="TRUE" alias="boolVar1">
+      <domain uuid="_g-E-4VsUEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_g-E-41sUEeevb7WtLo6j4w" bitSet="1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-E-5FsUEeevb7WtLo6j4w"
+            name="False" editable="false" displayName="False"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-Fl8FsUEeevb7WtLo6j4w"
+            name="True" editable="false" displayName="True"/>
+      </domain>
+      <properties key="VT type" value="Bool"/>
+      <properties key="Build type" value="boolean"/>
+      <properties key="Domain" value="[False, True]"/>
+    </currentVariables>
+    <currentVariables uuid="_g-G0EFsUEeevb7WtLo6j4w"
+        name="stringVar1" inUse="TRUE" alias="stringVar1">
+      <domain uuid="_g-G0EVsUEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_g-G0E1sUEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-G0FFsUEeevb7WtLo6j4w"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-G0FVsUEeevb7WtLo6j4w"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-HbIFsUEeevb7WtLo6j4w"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-HbIVsUEeevb7WtLo6j4w"
+            name="str4" editable="false" displayName="str4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3, str4]"/>
+    </currentVariables>
+    <currentVariables uuid="_g-IpQFsUEeevb7WtLo6j4w"
+        name="stringVar2" inUse="TRUE" alias="stringVar2">
+      <domain uuid="_g-IpQVsUEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_g-IpQ1sUEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-IpRFsUEeevb7WtLo6j4w"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-JQUFsUEeevb7WtLo6j4w"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-JQUVsUEeevb7WtLo6j4w"
+            name="str4" editable="false" displayName="str4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-J3YFsUEeevb7WtLo6j4w"
+            name="str5" editable="false" displayName="str5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-J3YVsUEeevb7WtLo6j4w"
+            name="str6" editable="false" displayName="str6"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str2, str3, str4, str5, str6]"/>
+    </currentVariables>
+    <currentVariables uuid="_g-LFgFsUEeevb7WtLo6j4w"
+        name="setFromStringVar1" inUse="TRUE" alias="setFromStringVar1">
+      <domain uuid="_g-LFgVsUEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_g-LFg1sUEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-LFhFsUEeevb7WtLo6j4w"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-LFhVsUEeevb7WtLo6j4w"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-LskFsUEeevb7WtLo6j4w"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-LskVsUEeevb7WtLo6j4w"
+            name="str4" editable="false" displayName="str4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3, str4]"/>
+    </currentVariables>
+    <currentVariables uuid="_g-MToFsUEeevb7WtLo6j4w"
+        name="setFromStringVar2" inUse="TRUE" alias="setFromStringVar2">
+      <domain uuid="_g-MToVsUEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_g-MTo1sUEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-M6sFsUEeevb7WtLo6j4w"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-M6sVsUEeevb7WtLo6j4w"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-P-AFsUEeevb7WtLo6j4w"
+            name="str4" editable="false" displayName="str4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-QlEFsUEeevb7WtLo6j4w"
+            name="str5" editable="false" displayName="str5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-QlEVsUEeevb7WtLo6j4w"
+            name="str6" editable="false" displayName="str6"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str2, str3, str4, str5, str6]"/>
+    </currentVariables>
+    <currentVariables uuid="_g-RzMFsUEeevb7WtLo6j4w"
+        name="stringCont" inUse="TRUE" alias="stringCont">
+      <domain uuid="_g-RzMVsUEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_g-RzM1sUEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-RzNFsUEeevb7WtLo6j4w"
+            name="1" editable="false" displayName="1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-SaQFsUEeevb7WtLo6j4w"
+            name="2" editable="false" displayName="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-SaQVsUEeevb7WtLo6j4w"
+            name="3" editable="false" displayName="3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-TBUFsUEeevb7WtLo6j4w"
+            name="4" editable="false" displayName="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-TBUVsUEeevb7WtLo6j4w"
+            name="5" editable="false" displayName="5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_g-ToYFsUEeevb7WtLo6j4w"
+            name="6" editable="false" displayName="6"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[1, 2, 3, 4, 5, 6]"/>
+    </currentVariables>
+  </rulesVT>
 </comp:Component>
