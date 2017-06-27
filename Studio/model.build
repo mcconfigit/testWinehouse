@@ -109,6 +109,8 @@
       name="wizz.png" relativePath="testImages/wizz.png"/>
   <externalResources uuid="__p7JsFsrEee2QNXYlSFTNg"
       name="Res1.PNG" relativePath="testImages/Res1.PNG"/>
+  <externalResources uuid="_EWYcUFstEeeBro-i9pgyng"
+      name="Res2.PNG" relativePath="testImages/Res2.PNG"/>
   <productModel href=".model/product_model.xml#_GD7MEKTqEea8d6P1JTl01w"/>
   <exporterModel href=".model/exporter_model.xml#_GD4IwKTqEea8d6P1JTl01w"/>
   <guiModel href=".model/gui_model.xml#_GDdSAKTqEea8d6P1JTl01w"/>
