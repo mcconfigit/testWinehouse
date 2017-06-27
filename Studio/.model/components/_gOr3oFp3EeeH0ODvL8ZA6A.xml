@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
     uuid="_gOr3oFp3EeeH0ODvL8ZA6A" name="AAA">
   <calculation uuid="_wq6w0FqIEeeXq_j46yErsA" name="Calculation_Rules"
@@ -15,4 +16,1004 @@
     </twoDElement>
     <parentPlugs uuid="_gOr3olp3EeeH0ODvL8ZA6A" name="ParentPlug"/>
   </geometry>
+  <rulesVT uuid="_PxiXMFsQEeevb7WtLo6j4w" name="VT_Rule"
+      checksum="cff1798126d0317f2809113d75e77d2306e45cb8"
+      modelType="VT_Model" language="None">
+    <fileVT href="../../model.build#_NCL1AFsQEeevb7WtLo6j4w"/>
+    <properties>VT type</properties>
+    <properties>Build type</properties>
+    <properties>Domain</properties>
+    <currentVariables uuid="_Qk_0cFsQEeevb7WtLo6j4w"
+        name="test1.var1" inUse="TRUE" alias="test1.var1">
+      <domain uuid="_Qk_0cVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_Qk_0c1sQEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlBpoFsQEeevb7WtLo6j4w"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlC3wFsQEeevb7WtLo6j4w"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlDe0FsQEeevb7WtLo6j4w"
+            name="str3" editable="false" displayName="str3"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3]"/>
+    </currentVariables>
+    <currentVariables uuid="_QlFUAFsQEeevb7WtLo6j4w"
+        name="test1.var2" inUse="TRUE" alias="test1.var2">
+      <domain uuid="_QlFUAVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QlFUA1sQEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlFUBFsQEeevb7WtLo6j4w"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlF7EFsQEeevb7WtLo6j4w"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlF7EVsQEeevb7WtLo6j4w"
+            name="str3" editable="false" displayName="str3"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3]"/>
+    </currentVariables>
+    <currentVariables uuid="_QlHJMFsQEeevb7WtLo6j4w"
+        name="test2.var1" inUse="TRUE" alias="test2.var1">
+      <domain uuid="_QlHJMVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QlHJM1sQEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlHJNFsQEeevb7WtLo6j4w"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlHJNVsQEeevb7WtLo6j4w"
+            name="str2" editable="false" displayName="str2"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2]"/>
+    </currentVariables>
+    <currentVariables uuid="_QlHwQFsQEeevb7WtLo6j4w"
+        name="test2.var2" inUse="TRUE" alias="test2.var2">
+      <domain uuid="_QlHwQVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QlHwQ1sQEeevb7WtLo6j4w" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlIXUFsQEeevb7WtLo6j4w"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlIXUVsQEeevb7WtLo6j4w"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlI-YFsQEeevb7WtLo6j4w"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlJlcFsQEeevb7WtLo6j4w"
+            name="str4" editable="false" displayName="str4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3, str4]"/>
+    </currentVariables>
+    <currentVariables uuid="_QlKMgFsQEeevb7WtLo6j4w"
+        name="rangeEquals.range1" inUse="TRUE" alias="rangeEquals.range1">
+      <domain uuid="_QlKMgVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QlKMg1sQEeevb7WtLo6j4w" bitSet="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlKzkFsQEeevb7WtLo6j4w"
+            name="0" editable="false" displayName="0"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlNP0FsQEeevb7WtLo6j4w"
+            name="1" editable="false" displayName="1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlNP0VsQEeevb7WtLo6j4w"
+            name="2" editable="false" displayName="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlN24FsQEeevb7WtLo6j4w"
+            name="3" editable="false" displayName="3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlOd8FsQEeevb7WtLo6j4w"
+            name="4" editable="false" displayName="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlOd8VsQEeevb7WtLo6j4w"
+            name="5" editable="false" displayName="5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlPFAFsQEeevb7WtLo6j4w"
+            name="6" editable="false" displayName="6"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlPFAVsQEeevb7WtLo6j4w"
+            name="7" editable="false" displayName="7"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlPsEFsQEeevb7WtLo6j4w"
+            name="8" editable="false" displayName="8"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlPsEVsQEeevb7WtLo6j4w"
+            name="9" editable="false" displayName="9"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlQTIFsQEeevb7WtLo6j4w"
+            name="10" editable="false" displayName="10"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlQ6MFsQEeevb7WtLo6j4w"
+            name="11" editable="false" displayName="11"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlQ6MVsQEeevb7WtLo6j4w"
+            name="12" editable="false" displayName="12"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlRhQFsQEeevb7WtLo6j4w"
+            name="13" editable="false" displayName="13"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlRhQVsQEeevb7WtLo6j4w"
+            name="14" editable="false" displayName="14"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlSIUFsQEeevb7WtLo6j4w"
+            name="15" editable="false" displayName="15"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlSIUVsQEeevb7WtLo6j4w"
+            name="16" editable="false" displayName="16"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlSvYFsQEeevb7WtLo6j4w"
+            name="17" editable="false" displayName="17"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlTWcFsQEeevb7WtLo6j4w"
+            name="18" editable="false" displayName="18"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlTWcVsQEeevb7WtLo6j4w"
+            name="19" editable="false" displayName="19"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlT9gFsQEeevb7WtLo6j4w"
+            name="20" editable="false" displayName="20"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlT9gVsQEeevb7WtLo6j4w"
+            name="21" editable="false" displayName="21"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlUkkFsQEeevb7WtLo6j4w"
+            name="22" editable="false" displayName="22"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlVLoFsQEeevb7WtLo6j4w"
+            name="23" editable="false" displayName="23"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlVysFsQEeevb7WtLo6j4w"
+            name="24" editable="false" displayName="24"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlVysVsQEeevb7WtLo6j4w"
+            name="25" editable="false" displayName="25"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlWZwFsQEeevb7WtLo6j4w"
+            name="26" editable="false" displayName="26"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlWZwVsQEeevb7WtLo6j4w"
+            name="27" editable="false" displayName="27"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlXA0FsQEeevb7WtLo6j4w"
+            name="28" editable="false" displayName="28"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlXn4FsQEeevb7WtLo6j4w"
+            name="29" editable="false" displayName="29"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlXn4VsQEeevb7WtLo6j4w"
+            name="30" editable="false" displayName="30"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlYO8FsQEeevb7WtLo6j4w"
+            name="31" editable="false" displayName="31"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlYO8VsQEeevb7WtLo6j4w"
+            name="32" editable="false" displayName="32"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlY2AFsQEeevb7WtLo6j4w"
+            name="33" editable="false" displayName="33"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlY2AVsQEeevb7WtLo6j4w"
+            name="34" editable="false" displayName="34"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlZdEFsQEeevb7WtLo6j4w"
+            name="35" editable="false" displayName="35"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlZdEVsQEeevb7WtLo6j4w"
+            name="36" editable="false" displayName="36"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlaEIFsQEeevb7WtLo6j4w"
+            name="37" editable="false" displayName="37"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlarMFsQEeevb7WtLo6j4w"
+            name="38" editable="false" displayName="38"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlarMVsQEeevb7WtLo6j4w"
+            name="39" editable="false" displayName="39"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlbSQFsQEeevb7WtLo6j4w"
+            name="40" editable="false" displayName="40"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlbSQVsQEeevb7WtLo6j4w"
+            name="41" editable="false" displayName="41"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qlb5UFsQEeevb7WtLo6j4w"
+            name="42" editable="false" displayName="42"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlcgYFsQEeevb7WtLo6j4w"
+            name="43" editable="false" displayName="43"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlcgYVsQEeevb7WtLo6j4w"
+            name="44" editable="false" displayName="44"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QldHcFsQEeevb7WtLo6j4w"
+            name="45" editable="false" displayName="45"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QldHcVsQEeevb7WtLo6j4w"
+            name="46" editable="false" displayName="46"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QldugFsQEeevb7WtLo6j4w"
+            name="47" editable="false" displayName="47"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QldugVsQEeevb7WtLo6j4w"
+            name="48" editable="false" displayName="48"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qle8oFsQEeevb7WtLo6j4w"
+            name="49" editable="false" displayName="49"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qle8oVsQEeevb7WtLo6j4w"
+            name="50" editable="false" displayName="50"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlfjsFsQEeevb7WtLo6j4w"
+            name="51" editable="false" displayName="51"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlfjsVsQEeevb7WtLo6j4w"
+            name="52" editable="false" displayName="52"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlgKwFsQEeevb7WtLo6j4w"
+            name="53" editable="false" displayName="53"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlgKwVsQEeevb7WtLo6j4w"
+            name="54" editable="false" displayName="54"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qlgx0FsQEeevb7WtLo6j4w"
+            name="55" editable="false" displayName="55"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlnfgFsQEeevb7WtLo6j4w"
+            name="56" editable="false" displayName="56"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlnfgVsQEeevb7WtLo6j4w"
+            name="57" editable="false" displayName="57"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QloGkFsQEeevb7WtLo6j4w"
+            name="58" editable="false" displayName="58"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QloGkVsQEeevb7WtLo6j4w"
+            name="59" editable="false" displayName="59"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlotoFsQEeevb7WtLo6j4w"
+            name="60" editable="false" displayName="60"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlpUsFsQEeevb7WtLo6j4w"
+            name="61" editable="false" displayName="61"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qlp7wFsQEeevb7WtLo6j4w"
+            name="62" editable="false" displayName="62"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qlp7wVsQEeevb7WtLo6j4w"
+            name="63" editable="false" displayName="63"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qlqi0FsQEeevb7WtLo6j4w"
+            name="64" editable="false" displayName="64"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qlqi0VsQEeevb7WtLo6j4w"
+            name="65" editable="false" displayName="65"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlrJ4FsQEeevb7WtLo6j4w"
+            name="66" editable="false" displayName="66"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlrJ4VsQEeevb7WtLo6j4w"
+            name="67" editable="false" displayName="67"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qlrw8FsQEeevb7WtLo6j4w"
+            name="68" editable="false" displayName="68"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlsYAFsQEeevb7WtLo6j4w"
+            name="69" editable="false" displayName="69"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlsYAVsQEeevb7WtLo6j4w"
+            name="70" editable="false" displayName="70"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qls_EFsQEeevb7WtLo6j4w"
+            name="71" editable="false" displayName="71"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qls_EVsQEeevb7WtLo6j4w"
+            name="72" editable="false" displayName="72"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QltmIFsQEeevb7WtLo6j4w"
+            name="73" editable="false" displayName="73"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QluNMFsQEeevb7WtLo6j4w"
+            name="74" editable="false" displayName="74"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QluNMVsQEeevb7WtLo6j4w"
+            name="75" editable="false" displayName="75"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qlu0QFsQEeevb7WtLo6j4w"
+            name="76" editable="false" displayName="76"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlvbUFsQEeevb7WtLo6j4w"
+            name="77" editable="false" displayName="77"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlvbUVsQEeevb7WtLo6j4w"
+            name="78" editable="false" displayName="78"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlwCYFsQEeevb7WtLo6j4w"
+            name="79" editable="false" displayName="79"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlwCYVsQEeevb7WtLo6j4w"
+            name="80" editable="false" displayName="80"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlwpcFsQEeevb7WtLo6j4w"
+            name="81" editable="false" displayName="81"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlxQgFsQEeevb7WtLo6j4w"
+            name="82" editable="false" displayName="82"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlxQgVsQEeevb7WtLo6j4w"
+            name="83" editable="false" displayName="83"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qlx3kFsQEeevb7WtLo6j4w"
+            name="84" editable="false" displayName="84"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qlx3kVsQEeevb7WtLo6j4w"
+            name="85" editable="false" displayName="85"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlyeoFsQEeevb7WtLo6j4w"
+            name="86" editable="false" displayName="86"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlzFsFsQEeevb7WtLo6j4w"
+            name="87" editable="false" displayName="87"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlzFsVsQEeevb7WtLo6j4w"
+            name="88" editable="false" displayName="88"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QlzswFsQEeevb7WtLo6j4w"
+            name="89" editable="false" displayName="89"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql0T0FsQEeevb7WtLo6j4w"
+            name="90" editable="false" displayName="90"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql0T0VsQEeevb7WtLo6j4w"
+            name="91" editable="false" displayName="91"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql064FsQEeevb7WtLo6j4w"
+            name="92" editable="false" displayName="92"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql1h8FsQEeevb7WtLo6j4w"
+            name="93" editable="false" displayName="93"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql1h8VsQEeevb7WtLo6j4w"
+            name="94" editable="false" displayName="94"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql2JAFsQEeevb7WtLo6j4w"
+            name="95" editable="false" displayName="95"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql2JAVsQEeevb7WtLo6j4w"
+            name="96" editable="false" displayName="96"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql2wEFsQEeevb7WtLo6j4w"
+            name="97" editable="false" displayName="97"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql2wEVsQEeevb7WtLo6j4w"
+            name="98" editable="false" displayName="98"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql3XIFsQEeevb7WtLo6j4w"
+            name="99" editable="false" displayName="99"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql3-MFsQEeevb7WtLo6j4w"
+            name="100" editable="false" displayName="100"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]"/>
+    </currentVariables>
+    <currentVariables uuid="_Ql4lQFsQEeevb7WtLo6j4w"
+        name="rangeEquals.range2" inUse="TRUE" alias="rangeEquals.range2">
+      <domain uuid="_Ql4lQVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_Ql4lQ1sQEeevb7WtLo6j4w" bitSet="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql5MUFsQEeevb7WtLo6j4w"
+            name="0" editable="false" displayName="0"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql5MUVsQEeevb7WtLo6j4w"
+            name="1" editable="false" displayName="1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql5zYFsQEeevb7WtLo6j4w"
+            name="2" editable="false" displayName="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql5zYVsQEeevb7WtLo6j4w"
+            name="3" editable="false" displayName="3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql6acFsQEeevb7WtLo6j4w"
+            name="4" editable="false" displayName="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql7BgFsQEeevb7WtLo6j4w"
+            name="5" editable="false" displayName="5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql7okFsQEeevb7WtLo6j4w"
+            name="6" editable="false" displayName="6"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql7okVsQEeevb7WtLo6j4w"
+            name="7" editable="false" displayName="7"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql8PoFsQEeevb7WtLo6j4w"
+            name="8" editable="false" displayName="8"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql8PoVsQEeevb7WtLo6j4w"
+            name="9" editable="false" displayName="9"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql82sFsQEeevb7WtLo6j4w"
+            name="10" editable="false" displayName="10"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql9dwFsQEeevb7WtLo6j4w"
+            name="11" editable="false" displayName="11"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql9dwVsQEeevb7WtLo6j4w"
+            name="12" editable="false" displayName="12"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql-E0FsQEeevb7WtLo6j4w"
+            name="13" editable="false" displayName="13"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql-E0VsQEeevb7WtLo6j4w"
+            name="14" editable="false" displayName="14"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql-r4FsQEeevb7WtLo6j4w"
+            name="15" editable="false" displayName="15"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql-r4VsQEeevb7WtLo6j4w"
+            name="16" editable="false" displayName="16"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql_S8FsQEeevb7WtLo6j4w"
+            name="17" editable="false" displayName="17"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql_6AFsQEeevb7WtLo6j4w"
+            name="18" editable="false" displayName="18"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Ql_6AVsQEeevb7WtLo6j4w"
+            name="19" editable="false" displayName="19"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmAhEFsQEeevb7WtLo6j4w"
+            name="20" editable="false" displayName="20"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmAhEVsQEeevb7WtLo6j4w"
+            name="21" editable="false" displayName="21"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmBIIFsQEeevb7WtLo6j4w"
+            name="22" editable="false" displayName="22"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmBvMFsQEeevb7WtLo6j4w"
+            name="23" editable="false" displayName="23"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmBvMVsQEeevb7WtLo6j4w"
+            name="24" editable="false" displayName="24"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmCWQFsQEeevb7WtLo6j4w"
+            name="25" editable="false" displayName="25"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmCWQVsQEeevb7WtLo6j4w"
+            name="26" editable="false" displayName="26"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmC9UFsQEeevb7WtLo6j4w"
+            name="27" editable="false" displayName="27"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmC9UVsQEeevb7WtLo6j4w"
+            name="28" editable="false" displayName="28"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmDkYFsQEeevb7WtLo6j4w"
+            name="29" editable="false" displayName="29"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmELcFsQEeevb7WtLo6j4w"
+            name="30" editable="false" displayName="30"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmELcVsQEeevb7WtLo6j4w"
+            name="31" editable="false" displayName="31"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmEygFsQEeevb7WtLo6j4w"
+            name="32" editable="false" displayName="32"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmEygVsQEeevb7WtLo6j4w"
+            name="33" editable="false" displayName="33"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmFZkFsQEeevb7WtLo6j4w"
+            name="34" editable="false" displayName="34"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmFZkVsQEeevb7WtLo6j4w"
+            name="35" editable="false" displayName="35"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmGAoFsQEeevb7WtLo6j4w"
+            name="36" editable="false" displayName="36"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmGnsFsQEeevb7WtLo6j4w"
+            name="37" editable="false" displayName="37"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmGnsVsQEeevb7WtLo6j4w"
+            name="38" editable="false" displayName="38"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmHOwFsQEeevb7WtLo6j4w"
+            name="39" editable="false" displayName="39"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmHOwVsQEeevb7WtLo6j4w"
+            name="40" editable="false" displayName="40"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmK5IFsQEeevb7WtLo6j4w"
+            name="41" editable="false" displayName="41"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmMHQFsQEeevb7WtLo6j4w"
+            name="42" editable="false" displayName="42"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmMuUFsQEeevb7WtLo6j4w"
+            name="43" editable="false" displayName="43"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmMuUVsQEeevb7WtLo6j4w"
+            name="44" editable="false" displayName="44"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmNVYFsQEeevb7WtLo6j4w"
+            name="45" editable="false" displayName="45"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmNVYVsQEeevb7WtLo6j4w"
+            name="46" editable="false" displayName="46"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmN8cFsQEeevb7WtLo6j4w"
+            name="47" editable="false" displayName="47"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmN8cVsQEeevb7WtLo6j4w"
+            name="48" editable="false" displayName="48"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmPKkFsQEeevb7WtLo6j4w"
+            name="49" editable="false" displayName="49"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmPKkVsQEeevb7WtLo6j4w"
+            name="50" editable="false" displayName="50"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmPxoFsQEeevb7WtLo6j4w"
+            name="51" editable="false" displayName="51"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmPxoVsQEeevb7WtLo6j4w"
+            name="52" editable="false" displayName="52"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmRm0FsQEeevb7WtLo6j4w"
+            name="53" editable="false" displayName="53"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmSN4FsQEeevb7WtLo6j4w"
+            name="54" editable="false" displayName="54"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmUqIFsQEeevb7WtLo6j4w"
+            name="55" editable="false" displayName="55"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmVRMFsQEeevb7WtLo6j4w"
+            name="56" editable="false" displayName="56"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmVRMVsQEeevb7WtLo6j4w"
+            name="57" editable="false" displayName="57"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmV4QFsQEeevb7WtLo6j4w"
+            name="58" editable="false" displayName="58"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmWfUFsQEeevb7WtLo6j4w"
+            name="59" editable="false" displayName="59"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmWfUVsQEeevb7WtLo6j4w"
+            name="60" editable="false" displayName="60"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmXGYFsQEeevb7WtLo6j4w"
+            name="61" editable="false" displayName="61"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmXtcFsQEeevb7WtLo6j4w"
+            name="62" editable="false" displayName="62"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmXtcVsQEeevb7WtLo6j4w"
+            name="63" editable="false" displayName="63"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmYUgFsQEeevb7WtLo6j4w"
+            name="64" editable="false" displayName="64"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmYUgVsQEeevb7WtLo6j4w"
+            name="65" editable="false" displayName="65"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmY7kFsQEeevb7WtLo6j4w"
+            name="66" editable="false" displayName="66"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmY7kVsQEeevb7WtLo6j4w"
+            name="67" editable="false" displayName="67"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmZioFsQEeevb7WtLo6j4w"
+            name="68" editable="false" displayName="68"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmaJsFsQEeevb7WtLo6j4w"
+            name="69" editable="false" displayName="69"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmaJsVsQEeevb7WtLo6j4w"
+            name="70" editable="false" displayName="70"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmawwFsQEeevb7WtLo6j4w"
+            name="71" editable="false" displayName="71"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmawwVsQEeevb7WtLo6j4w"
+            name="72" editable="false" displayName="72"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmbX0FsQEeevb7WtLo6j4w"
+            name="73" editable="false" displayName="73"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmb-4FsQEeevb7WtLo6j4w"
+            name="74" editable="false" displayName="74"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmb-4VsQEeevb7WtLo6j4w"
+            name="75" editable="false" displayName="75"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmcl8FsQEeevb7WtLo6j4w"
+            name="76" editable="false" displayName="76"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmcl8VsQEeevb7WtLo6j4w"
+            name="77" editable="false" displayName="77"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmdNAFsQEeevb7WtLo6j4w"
+            name="78" editable="false" displayName="78"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmdNAVsQEeevb7WtLo6j4w"
+            name="79" editable="false" displayName="79"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmdNAlsQEeevb7WtLo6j4w"
+            name="80" editable="false" displayName="80"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmebIFsQEeevb7WtLo6j4w"
+            name="81" editable="false" displayName="81"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmebIVsQEeevb7WtLo6j4w"
+            name="82" editable="false" displayName="82"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmfCMFsQEeevb7WtLo6j4w"
+            name="83" editable="false" displayName="83"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmfCMVsQEeevb7WtLo6j4w"
+            name="84" editable="false" displayName="84"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmfpQFsQEeevb7WtLo6j4w"
+            name="85" editable="false" displayName="85"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmfpQVsQEeevb7WtLo6j4w"
+            name="86" editable="false" displayName="86"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmgQUFsQEeevb7WtLo6j4w"
+            name="87" editable="false" displayName="87"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmgQUVsQEeevb7WtLo6j4w"
+            name="88" editable="false" displayName="88"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmg3YFsQEeevb7WtLo6j4w"
+            name="89" editable="false" displayName="89"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmg3YVsQEeevb7WtLo6j4w"
+            name="90" editable="false" displayName="90"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmhecFsQEeevb7WtLo6j4w"
+            name="91" editable="false" displayName="91"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmhecVsQEeevb7WtLo6j4w"
+            name="92" editable="false" displayName="92"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmiFgFsQEeevb7WtLo6j4w"
+            name="93" editable="false" displayName="93"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmiskFsQEeevb7WtLo6j4w"
+            name="94" editable="false" displayName="94"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmiskVsQEeevb7WtLo6j4w"
+            name="95" editable="false" displayName="95"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmjToFsQEeevb7WtLo6j4w"
+            name="96" editable="false" displayName="96"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmjToVsQEeevb7WtLo6j4w"
+            name="97" editable="false" displayName="97"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmj6sFsQEeevb7WtLo6j4w"
+            name="98" editable="false" displayName="98"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmj6sVsQEeevb7WtLo6j4w"
+            name="99" editable="false" displayName="99"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmkhwFsQEeevb7WtLo6j4w"
+            name="100" editable="false" displayName="100"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]"/>
+    </currentVariables>
+    <currentVariables uuid="_QmlI0FsQEeevb7WtLo6j4w"
+        name="rangeNarrow.range1" inUse="TRUE" alias="rangeNarrow.range1">
+      <domain uuid="_QmlI0VsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QmlI01sQEeevb7WtLo6j4w" bitSet="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmlv4FsQEeevb7WtLo6j4w"
+            name="0" editable="false" displayName="0"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmlv4VsQEeevb7WtLo6j4w"
+            name="1" editable="false" displayName="1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmmW8FsQEeevb7WtLo6j4w"
+            name="2" editable="false" displayName="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmmW8VsQEeevb7WtLo6j4w"
+            name="3" editable="false" displayName="3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmm-AFsQEeevb7WtLo6j4w"
+            name="4" editable="false" displayName="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmnlEFsQEeevb7WtLo6j4w"
+            name="5" editable="false" displayName="5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmnlEVsQEeevb7WtLo6j4w"
+            name="6" editable="false" displayName="6"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmoMIFsQEeevb7WtLo6j4w"
+            name="7" editable="false" displayName="7"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmoMIVsQEeevb7WtLo6j4w"
+            name="8" editable="false" displayName="8"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmozMFsQEeevb7WtLo6j4w"
+            name="9" editable="false" displayName="9"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmpaQFsQEeevb7WtLo6j4w"
+            name="10" editable="false" displayName="10"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmpaQVsQEeevb7WtLo6j4w"
+            name="11" editable="false" displayName="11"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmqBUFsQEeevb7WtLo6j4w"
+            name="12" editable="false" displayName="12"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmqBUVsQEeevb7WtLo6j4w"
+            name="13" editable="false" displayName="13"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmqoYFsQEeevb7WtLo6j4w"
+            name="14" editable="false" displayName="14"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmqoYVsQEeevb7WtLo6j4w"
+            name="15" editable="false" displayName="15"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmqoYlsQEeevb7WtLo6j4w"
+            name="16" editable="false" displayName="16"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmr2gFsQEeevb7WtLo6j4w"
+            name="17" editable="false" displayName="17"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmr2gVsQEeevb7WtLo6j4w"
+            name="18" editable="false" displayName="18"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmsdkFsQEeevb7WtLo6j4w"
+            name="19" editable="false" displayName="19"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmsdkVsQEeevb7WtLo6j4w"
+            name="20" editable="false" displayName="20"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmtEoFsQEeevb7WtLo6j4w"
+            name="21" editable="false" displayName="21"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmtEoVsQEeevb7WtLo6j4w"
+            name="22" editable="false" displayName="22"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmtrsFsQEeevb7WtLo6j4w"
+            name="23" editable="false" displayName="23"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmuSwFsQEeevb7WtLo6j4w"
+            name="24" editable="false" displayName="24"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmuSwVsQEeevb7WtLo6j4w"
+            name="25" editable="false" displayName="25"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qmx9IFsQEeevb7WtLo6j4w"
+            name="26" editable="false" displayName="26"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmykMFsQEeevb7WtLo6j4w"
+            name="27" editable="false" displayName="27"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmykMVsQEeevb7WtLo6j4w"
+            name="28" editable="false" displayName="28"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmzLQFsQEeevb7WtLo6j4w"
+            name="29" editable="false" displayName="29"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QmzyUFsQEeevb7WtLo6j4w"
+            name="30" editable="false" displayName="30"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm0ZYFsQEeevb7WtLo6j4w"
+            name="31" editable="false" displayName="31"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm0ZYVsQEeevb7WtLo6j4w"
+            name="32" editable="false" displayName="32"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm1AcFsQEeevb7WtLo6j4w"
+            name="33" editable="false" displayName="33"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm1AcVsQEeevb7WtLo6j4w"
+            name="34" editable="false" displayName="34"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm1AclsQEeevb7WtLo6j4w"
+            name="35" editable="false" displayName="35"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm2OkFsQEeevb7WtLo6j4w"
+            name="36" editable="false" displayName="36"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm2OkVsQEeevb7WtLo6j4w"
+            name="37" editable="false" displayName="37"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm21oFsQEeevb7WtLo6j4w"
+            name="38" editable="false" displayName="38"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm21oVsQEeevb7WtLo6j4w"
+            name="39" editable="false" displayName="39"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm3csFsQEeevb7WtLo6j4w"
+            name="40" editable="false" displayName="40"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm3csVsQEeevb7WtLo6j4w"
+            name="41" editable="false" displayName="41"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm4DwFsQEeevb7WtLo6j4w"
+            name="42" editable="false" displayName="42"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm4q0FsQEeevb7WtLo6j4w"
+            name="43" editable="false" displayName="43"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm4q0VsQEeevb7WtLo6j4w"
+            name="44" editable="false" displayName="44"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm5R4FsQEeevb7WtLo6j4w"
+            name="45" editable="false" displayName="45"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm5R4VsQEeevb7WtLo6j4w"
+            name="46" editable="false" displayName="46"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm548FsQEeevb7WtLo6j4w"
+            name="47" editable="false" displayName="47"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm548VsQEeevb7WtLo6j4w"
+            name="48" editable="false" displayName="48"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm6gAFsQEeevb7WtLo6j4w"
+            name="49" editable="false" displayName="49"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm7HEFsQEeevb7WtLo6j4w"
+            name="50" editable="false" displayName="50"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm7HEVsQEeevb7WtLo6j4w"
+            name="51" editable="false" displayName="51"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm7uIFsQEeevb7WtLo6j4w"
+            name="52" editable="false" displayName="52"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm7uIVsQEeevb7WtLo6j4w"
+            name="53" editable="false" displayName="53"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm8VMFsQEeevb7WtLo6j4w"
+            name="54" editable="false" displayName="54"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm88QFsQEeevb7WtLo6j4w"
+            name="55" editable="false" displayName="55"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm88QVsQEeevb7WtLo6j4w"
+            name="56" editable="false" displayName="56"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm9jUFsQEeevb7WtLo6j4w"
+            name="57" editable="false" displayName="57"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm9jUVsQEeevb7WtLo6j4w"
+            name="58" editable="false" displayName="58"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm-KYFsQEeevb7WtLo6j4w"
+            name="59" editable="false" displayName="59"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm-KYVsQEeevb7WtLo6j4w"
+            name="60" editable="false" displayName="60"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm-xcFsQEeevb7WtLo6j4w"
+            name="61" editable="false" displayName="61"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm_YgFsQEeevb7WtLo6j4w"
+            name="62" editable="false" displayName="62"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm_YgVsQEeevb7WtLo6j4w"
+            name="63" editable="false" displayName="63"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm__kFsQEeevb7WtLo6j4w"
+            name="64" editable="false" displayName="64"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qm__kVsQEeevb7WtLo6j4w"
+            name="65" editable="false" displayName="65"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnAmoFsQEeevb7WtLo6j4w"
+            name="66" editable="false" displayName="66"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnAmoVsQEeevb7WtLo6j4w"
+            name="67" editable="false" displayName="67"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnBNsFsQEeevb7WtLo6j4w"
+            name="68" editable="false" displayName="68"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnB0wFsQEeevb7WtLo6j4w"
+            name="69" editable="false" displayName="69"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnB0wVsQEeevb7WtLo6j4w"
+            name="70" editable="false" displayName="70"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnCb0FsQEeevb7WtLo6j4w"
+            name="71" editable="false" displayName="71"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnCb0VsQEeevb7WtLo6j4w"
+            name="72" editable="false" displayName="72"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnDC4FsQEeevb7WtLo6j4w"
+            name="73" editable="false" displayName="73"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnDp8FsQEeevb7WtLo6j4w"
+            name="74" editable="false" displayName="74"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnDp8VsQEeevb7WtLo6j4w"
+            name="75" editable="false" displayName="75"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnERAFsQEeevb7WtLo6j4w"
+            name="76" editable="false" displayName="76"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnERAVsQEeevb7WtLo6j4w"
+            name="77" editable="false" displayName="77"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnE4EFsQEeevb7WtLo6j4w"
+            name="78" editable="false" displayName="78"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnE4EVsQEeevb7WtLo6j4w"
+            name="79" editable="false" displayName="79"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnFfIFsQEeevb7WtLo6j4w"
+            name="80" editable="false" displayName="80"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnGGMFsQEeevb7WtLo6j4w"
+            name="81" editable="false" displayName="81"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnGGMVsQEeevb7WtLo6j4w"
+            name="82" editable="false" displayName="82"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnGtQFsQEeevb7WtLo6j4w"
+            name="83" editable="false" displayName="83"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnGtQVsQEeevb7WtLo6j4w"
+            name="84" editable="false" displayName="84"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnHUUFsQEeevb7WtLo6j4w"
+            name="85" editable="false" displayName="85"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnHUUVsQEeevb7WtLo6j4w"
+            name="86" editable="false" displayName="86"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnH7YFsQEeevb7WtLo6j4w"
+            name="87" editable="false" displayName="87"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnIicFsQEeevb7WtLo6j4w"
+            name="88" editable="false" displayName="88"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnIicVsQEeevb7WtLo6j4w"
+            name="89" editable="false" displayName="89"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnJJgFsQEeevb7WtLo6j4w"
+            name="90" editable="false" displayName="90"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnJJgVsQEeevb7WtLo6j4w"
+            name="91" editable="false" displayName="91"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnJwkFsQEeevb7WtLo6j4w"
+            name="92" editable="false" displayName="92"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnKXoFsQEeevb7WtLo6j4w"
+            name="93" editable="false" displayName="93"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnKXoVsQEeevb7WtLo6j4w"
+            name="94" editable="false" displayName="94"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnK-sFsQEeevb7WtLo6j4w"
+            name="95" editable="false" displayName="95"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnK-sVsQEeevb7WtLo6j4w"
+            name="96" editable="false" displayName="96"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnLlwFsQEeevb7WtLo6j4w"
+            name="97" editable="false" displayName="97"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnLlwVsQEeevb7WtLo6j4w"
+            name="98" editable="false" displayName="98"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnMM0FsQEeevb7WtLo6j4w"
+            name="99" editable="false" displayName="99"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnMz4FsQEeevb7WtLo6j4w"
+            name="100" editable="false" displayName="100"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]"/>
+    </currentVariables>
+    <currentVariables uuid="_QnNa8FsQEeevb7WtLo6j4w"
+        name="rangeNarrow.range2" inUse="TRUE" alias="rangeNarrow.range2">
+      <domain uuid="_QnNa8VsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QnNa81sQEeevb7WtLo6j4w" bitSet="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnOCAFsQEeevb7WtLo6j4w"
+            name="0" editable="false" displayName="0"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnOCAVsQEeevb7WtLo6j4w"
+            name="1" editable="false" displayName="1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnOCAlsQEeevb7WtLo6j4w"
+            name="2" editable="false" displayName="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnOpEFsQEeevb7WtLo6j4w"
+            name="3" editable="false" displayName="3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnPQIFsQEeevb7WtLo6j4w"
+            name="4" editable="false" displayName="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnP3MFsQEeevb7WtLo6j4w"
+            name="5" editable="false" displayName="5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnP3MVsQEeevb7WtLo6j4w"
+            name="6" editable="false" displayName="6"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnQeQFsQEeevb7WtLo6j4w"
+            name="7" editable="false" displayName="7"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnQeQVsQEeevb7WtLo6j4w"
+            name="8" editable="false" displayName="8"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnRFUFsQEeevb7WtLo6j4w"
+            name="9" editable="false" displayName="9"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnRsYFsQEeevb7WtLo6j4w"
+            name="10" editable="false" displayName="10"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnUvsFsQEeevb7WtLo6j4w"
+            name="11" editable="false" displayName="11"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnUvsVsQEeevb7WtLo6j4w"
+            name="12" editable="false" displayName="12"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnVWwFsQEeevb7WtLo6j4w"
+            name="13" editable="false" displayName="13"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnVWwVsQEeevb7WtLo6j4w"
+            name="14" editable="false" displayName="14"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnV90FsQEeevb7WtLo6j4w"
+            name="15" editable="false" displayName="15"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnV90VsQEeevb7WtLo6j4w"
+            name="16" editable="false" displayName="16"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnXL8FsQEeevb7WtLo6j4w"
+            name="17" editable="false" displayName="17"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnXL8VsQEeevb7WtLo6j4w"
+            name="18" editable="false" displayName="18"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnXzAFsQEeevb7WtLo6j4w"
+            name="19" editable="false" displayName="19"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnYaEFsQEeevb7WtLo6j4w"
+            name="20" editable="false" displayName="20"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnYaEVsQEeevb7WtLo6j4w"
+            name="21" editable="false" displayName="21"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnZBIFsQEeevb7WtLo6j4w"
+            name="22" editable="false" displayName="22"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnZoMFsQEeevb7WtLo6j4w"
+            name="23" editable="false" displayName="23"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnaPQFsQEeevb7WtLo6j4w"
+            name="24" editable="false" displayName="24"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnaPQVsQEeevb7WtLo6j4w"
+            name="25" editable="false" displayName="25"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnaPQlsQEeevb7WtLo6j4w"
+            name="26" editable="false" displayName="26"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qna2UFsQEeevb7WtLo6j4w"
+            name="27" editable="false" displayName="27"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qna2UVsQEeevb7WtLo6j4w"
+            name="28" editable="false" displayName="28"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QncEcFsQEeevb7WtLo6j4w"
+            name="29" editable="false" displayName="29"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QncEcVsQEeevb7WtLo6j4w"
+            name="30" editable="false" displayName="30"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QncrgFsQEeevb7WtLo6j4w"
+            name="31" editable="false" displayName="31"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QncrgVsQEeevb7WtLo6j4w"
+            name="32" editable="false" displayName="32"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QndSkFsQEeevb7WtLo6j4w"
+            name="33" editable="false" displayName="33"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QndSkVsQEeevb7WtLo6j4w"
+            name="34" editable="false" displayName="34"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnd5oFsQEeevb7WtLo6j4w"
+            name="35" editable="false" displayName="35"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnegsFsQEeevb7WtLo6j4w"
+            name="36" editable="false" displayName="36"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnegsVsQEeevb7WtLo6j4w"
+            name="37" editable="false" displayName="37"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnfHwFsQEeevb7WtLo6j4w"
+            name="38" editable="false" displayName="38"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnfHwVsQEeevb7WtLo6j4w"
+            name="39" editable="false" displayName="39"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnfu0FsQEeevb7WtLo6j4w"
+            name="40" editable="false" displayName="40"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnfu0VsQEeevb7WtLo6j4w"
+            name="41" editable="false" displayName="41"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QngV4FsQEeevb7WtLo6j4w"
+            name="42" editable="false" displayName="42"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qng88FsQEeevb7WtLo6j4w"
+            name="43" editable="false" displayName="43"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qng88VsQEeevb7WtLo6j4w"
+            name="44" editable="false" displayName="44"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnhkAFsQEeevb7WtLo6j4w"
+            name="45" editable="false" displayName="45"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QniLEFsQEeevb7WtLo6j4w"
+            name="46" editable="false" displayName="46"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QniLEVsQEeevb7WtLo6j4w"
+            name="47" editable="false" displayName="47"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QniyIFsQEeevb7WtLo6j4w"
+            name="48" editable="false" displayName="48"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnjZMFsQEeevb7WtLo6j4w"
+            name="49" editable="false" displayName="49"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnkAQFsQEeevb7WtLo6j4w"
+            name="50" editable="false" displayName="50"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnkAQVsQEeevb7WtLo6j4w"
+            name="51" editable="false" displayName="51"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnknUFsQEeevb7WtLo6j4w"
+            name="52" editable="false" displayName="52"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnknUVsQEeevb7WtLo6j4w"
+            name="53" editable="false" displayName="53"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnknUlsQEeevb7WtLo6j4w"
+            name="54" editable="false" displayName="54"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnl1cFsQEeevb7WtLo6j4w"
+            name="55" editable="false" displayName="55"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnl1cVsQEeevb7WtLo6j4w"
+            name="56" editable="false" displayName="56"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnmcgFsQEeevb7WtLo6j4w"
+            name="57" editable="false" displayName="57"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnmcgVsQEeevb7WtLo6j4w"
+            name="58" editable="false" displayName="58"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnnDkFsQEeevb7WtLo6j4w"
+            name="59" editable="false" displayName="59"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnnDkVsQEeevb7WtLo6j4w"
+            name="60" editable="false" displayName="60"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnnqoFsQEeevb7WtLo6j4w"
+            name="61" editable="false" displayName="61"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnoRsFsQEeevb7WtLo6j4w"
+            name="62" editable="false" displayName="62"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnoRsVsQEeevb7WtLo6j4w"
+            name="63" editable="false" displayName="63"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qno4wFsQEeevb7WtLo6j4w"
+            name="64" editable="false" displayName="64"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qno4wVsQEeevb7WtLo6j4w"
+            name="65" editable="false" displayName="65"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnpf0FsQEeevb7WtLo6j4w"
+            name="66" editable="false" displayName="66"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnpf0VsQEeevb7WtLo6j4w"
+            name="67" editable="false" displayName="67"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnqG4FsQEeevb7WtLo6j4w"
+            name="68" editable="false" displayName="68"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnqt8FsQEeevb7WtLo6j4w"
+            name="69" editable="false" displayName="69"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnqt8VsQEeevb7WtLo6j4w"
+            name="70" editable="false" displayName="70"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnrVAFsQEeevb7WtLo6j4w"
+            name="71" editable="false" displayName="71"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnrVAVsQEeevb7WtLo6j4w"
+            name="72" editable="false" displayName="72"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnr8EFsQEeevb7WtLo6j4w"
+            name="73" editable="false" displayName="73"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnsjIFsQEeevb7WtLo6j4w"
+            name="74" editable="false" displayName="74"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QntKMFsQEeevb7WtLo6j4w"
+            name="75" editable="false" displayName="75"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QntKMVsQEeevb7WtLo6j4w"
+            name="76" editable="false" displayName="76"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QntKMlsQEeevb7WtLo6j4w"
+            name="77" editable="false" displayName="77"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QntxQFsQEeevb7WtLo6j4w"
+            name="78" editable="false" displayName="78"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QntxQVsQEeevb7WtLo6j4w"
+            name="79" editable="false" displayName="79"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnuYUFsQEeevb7WtLo6j4w"
+            name="80" editable="false" displayName="80"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnu_YFsQEeevb7WtLo6j4w"
+            name="81" editable="false" displayName="81"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnvmcFsQEeevb7WtLo6j4w"
+            name="82" editable="false" displayName="82"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnvmcVsQEeevb7WtLo6j4w"
+            name="83" editable="false" displayName="83"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnwNgFsQEeevb7WtLo6j4w"
+            name="84" editable="false" displayName="84"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnwNgVsQEeevb7WtLo6j4w"
+            name="85" editable="false" displayName="85"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnwNglsQEeevb7WtLo6j4w"
+            name="86" editable="false" displayName="86"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnxboFsQEeevb7WtLo6j4w"
+            name="87" editable="false" displayName="87"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnxboVsQEeevb7WtLo6j4w"
+            name="88" editable="false" displayName="88"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnyCsFsQEeevb7WtLo6j4w"
+            name="89" editable="false" displayName="89"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnyCsVsQEeevb7WtLo6j4w"
+            name="90" editable="false" displayName="90"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnypwFsQEeevb7WtLo6j4w"
+            name="91" editable="false" displayName="91"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnypwVsQEeevb7WtLo6j4w"
+            name="92" editable="false" displayName="92"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QnzQ0FsQEeevb7WtLo6j4w"
+            name="93" editable="false" displayName="93"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnz34FsQEeevb7WtLo6j4w"
+            name="94" editable="false" displayName="94"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qnz34VsQEeevb7WtLo6j4w"
+            name="95" editable="false" displayName="95"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qn0e8FsQEeevb7WtLo6j4w"
+            name="96" editable="false" displayName="96"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qn0e8VsQEeevb7WtLo6j4w"
+            name="97" editable="false" displayName="97"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qn-3AFsQEeevb7WtLo6j4w"
+            name="98" editable="false" displayName="98"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Qn_eEFsQEeevb7WtLo6j4w"
+            name="99" editable="false" displayName="99"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_QoAsMFsQEeevb7WtLo6j4w"
+            name="100" editable="false" displayName="100"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]"/>
+    </currentVariables>
+    <currentVariables uuid="_QoBTQFsQEeevb7WtLo6j4w"
+        name="integerEquals.integer1" inUse="TRUE" alias="integerEquals.integer1">
+      <domain uuid="_QoBTQVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QoBTQ1sQEeevb7WtLo6j4w" bitSet="2"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_QoB6UFsQEeevb7WtLo6j4w"
+        name="integerEquals.integer2" inUse="TRUE" alias="integerEquals.integer2">
+      <domain uuid="_QoB6UVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QoB6U1sQEeevb7WtLo6j4w" bitSet="2"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_QoChYFsQEeevb7WtLo6j4w"
+        name="integerNarrow.integer1" inUse="TRUE" alias="integerNarrow.integer1">
+      <domain uuid="_QoChYVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QoChY1sQEeevb7WtLo6j4w" bitSet="2"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_QoDIcFsQEeevb7WtLo6j4w"
+        name="integerNarrow.integer2" inUse="TRUE" alias="integerNarrow.integer2">
+      <domain uuid="_QoDIcVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QoDIc1sQEeevb7WtLo6j4w" bitSet="2"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_QoDvgFsQEeevb7WtLo6j4w"
+        name="FloatEquals.float1" inUse="TRUE" alias="FloatEquals.float1">
+      <domain uuid="_QoDvgVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QoDvg1sQEeevb7WtLo6j4w" bitSet="8"/>
+      </domain>
+      <properties key="VT type" value="Float"/>
+      <properties key="Build type" value="float"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_QoEWkFsQEeevb7WtLo6j4w"
+        name="FloatEquals.float2" inUse="TRUE" alias="FloatEquals.float2">
+      <domain uuid="_QoEWkVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QoEWk1sQEeevb7WtLo6j4w" bitSet="8"/>
+      </domain>
+      <properties key="VT type" value="Float"/>
+      <properties key="Build type" value="float"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_QoE9oFsQEeevb7WtLo6j4w"
+        name="floatNarrow.float1" inUse="TRUE" alias="floatNarrow.float1">
+      <domain uuid="_QoE9oVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QoE9o1sQEeevb7WtLo6j4w" bitSet="8"/>
+      </domain>
+      <properties key="VT type" value="Float"/>
+      <properties key="Build type" value="float"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_QoGLwFsQEeevb7WtLo6j4w"
+        name="floatNarrow.float2" inUse="TRUE" alias="floatNarrow.float2">
+      <domain uuid="_QoGLwVsQEeevb7WtLo6j4w" name="local"
+          visibility="300">
+        <typeSet uuid="_QoGLw1sQEeevb7WtLo6j4w" bitSet="8"/>
+      </domain>
+      <properties key="VT type" value="Float"/>
+      <properties key="Build type" value="float"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+  </rulesVT>
 </comp:Component>

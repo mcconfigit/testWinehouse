@@ -79,6 +79,8 @@
       name="test_drawing.svg" relativePath="svg/test_drawing.svg"/>
   <externalResources uuid="_vhQSsFqLEeeXq_j46yErsA"
       name="my_rect2.svg" relativePath="svg/my_rect2.svg"/>
+  <externalResources uuid="_NCL1AFsQEeevb7WtLo6j4w"
+      name="vttestmodel.vtz" relativePath="VT/vttestmodel.vtz"/>
   <productModel href=".model/product_model.xml#_GD7MEKTqEea8d6P1JTl01w"/>
   <exporterModel href=".model/exporter_model.xml#_GD4IwKTqEea8d6P1JTl01w"/>
   <guiModel href=".model/gui_model.xml#_GDdSAKTqEea8d6P1JTl01w"/>
