@@ -11,6 +11,7 @@
       <typeSet uuid="_ziSXklstEeeBro-i9pgyng" bitSet="393231"/>
     </domain>
   </variables>
+  <template href="_Vuhj8FsZEeecZJ9Bu5iBqQ.xml#_Vuhj8FsZEeecZJ9Bu5iBqQ"/>
   <geometry deletable="false" uuid="_DGilEVstEeeBro-i9pgyng"
       name="root">
     <parentPlugs uuid="_DGilElstEeeBro-i9pgyng" name="ParentPlug"/>
