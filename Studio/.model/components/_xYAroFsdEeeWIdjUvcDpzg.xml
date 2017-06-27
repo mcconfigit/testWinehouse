@@ -3,6 +3,7 @@
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
     uuid="_xYAroFsdEeeWIdjUvcDpzg" name="C"
     displayName="Component">
+  <cursorTwoD uuid="_yLJ4cFsgEeeo3tR_H273bA" name="R"/>
   <geometry deletable="false" uuid="_xYAroVsdEeeWIdjUvcDpzg"
       name="root">
     <parentPlugs uuid="_xYArolsdEeeWIdjUvcDpzg" name="ParentPlug"/>
