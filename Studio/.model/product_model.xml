@@ -133,6 +133,11 @@
     <inTypeSet uuid="_DKC-k1qJEeeXq_j46yErsA" bitSet="458767"/>
     <outTypeSet uuid="_DKC-lFqJEeeXq_j46yErsA" bitSet="458767"/>
   </tables>
+  <tables uuid="_ppyDYFsXEeevb7WtLo6j4w" name="table">
+    <rows uuid="_qczbwFsXEeevb7WtLo6j4w" in="1" out="2"/>
+    <inTypeSet uuid="_ppyDY1sXEeevb7WtLo6j4w" bitSet="458767"/>
+    <outTypeSet uuid="_ppyDZFsXEeevb7WtLo6j4w" bitSet="458767"/>
+  </tables>
   <modeldescription uuid="_GIIWoKTqEea8d6P1JTl01w" pmid="BuildModel">
     <version uuid="_GIJkwKTqEea8d6P1JTl01w" major="1"/>
   </modeldescription>
