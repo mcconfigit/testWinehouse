@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
     uuid="_hMPPkFp4EeeH0ODvL8ZA6A" name="Component 2"
     displayName="Comp2">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_aJ40oFscEeeWIdjUvcDpzg"
+      name="Variable" visibility="800">
+    <domain uuid="_aJ40oVscEeeWIdjUvcDpzg" name="local"
+        visibility="300">
+      <typeSet uuid="_aJ40olscEeeWIdjUvcDpzg" bitSet="393231"/>
+    </domain>
+  </variables>
   <geometry deletable="false" uuid="_hMPPkVp4EeeH0ODvL8ZA6A"
       name="root">
     <parentPlugs uuid="_hMPPklp4EeeH0ODvL8ZA6A" name="ParentPlug"/>
