@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
-    uuid="_gOr3oFp3EeeH0ODvL8ZA6A" name="A">
+    uuid="_gOr3oFp3EeeH0ODvL8ZA6A" name="AA">
   <calculation uuid="_wq6w0FqIEeeXq_j46yErsA" name="Calculation_Rules"
       visibility="800">
     <text>var a=1;</text>
