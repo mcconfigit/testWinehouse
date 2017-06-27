@@ -141,6 +141,8 @@
       name="Res1.PNG" relativePath="anotherFolder/Res1.PNG"/>
   <externalResources uuid="_dnjAwFs8EeePWqDNRfq82w"
       name="Res1.PNG" relativePath="pampam/Res1.PNG"/>
+  <externalResources uuid="_pm35gFs8EeePWqDNRfq82w"
+      name="Res1.PNG" relativePath="pampam2/Res1.PNG"/>
   <productModel href=".model/product_model.xml#_GD7MEKTqEea8d6P1JTl01w"/>
   <exporterModel href=".model/exporter_model.xml#_GD4IwKTqEea8d6P1JTl01w"/>
   <guiModel href=".model/gui_model.xml#_GDdSAKTqEea8d6P1JTl01w"/>
