@@ -13,6 +13,13 @@
           editable="false" visibility="300" displayName="one"/>
     </domain>
   </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_UpHQgFsYEeefLOSmi5Doyw"
+      name="myVar" visibility="800">
+    <domain uuid="_UpHQgVsYEeefLOSmi5Doyw" name="local"
+        visibility="300">
+      <typeSet uuid="_UpHQglsYEeefLOSmi5Doyw" bitSet="393231"/>
+    </domain>
+  </variables>
   <role uuid="_qucXoHAAEeSk24oMIozLgA" name="insertfree"
       customType="insertfree">
     <domain uuid="_qucXoXAAEeSk24oMIozLgA" name="local"
