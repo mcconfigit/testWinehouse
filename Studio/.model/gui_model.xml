@@ -230,6 +230,17 @@
       </panels>
     </panels>
   </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_H68jgFsSEeevb7WtLo6j4w"
+      name="Unit">
+    <panels uuid="_ITMrcFsSEeevb7WtLo6j4w">
+      <panels uuid="_Ij7PEFsSEeevb7WtLo6j4w" name="Panel">
+        <items xsi:type="gui:Button" uuid="_JEK1YFsSEeevb7WtLo6j4w"
+            name="Button" style="_3QgI8bbqEeK305n3PlGMhg">
+          <image href="../model.build#_A2OjkFsSEeevb7WtLo6j4w"/>
+        </items>
+      </panels>
+    </panels>
+  </guiUnits>
   <frame uuid="_g71an3CvEeSsYaj_bb2fSA" name="Frame"
       title="Build Configurator" icon="customization/doNotDelete/Build.png"
       backgroundColor="(255,255,255)">
