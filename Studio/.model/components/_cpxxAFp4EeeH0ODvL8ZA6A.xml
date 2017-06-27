@@ -6,7 +6,7 @@
   <geometry deletable="false" uuid="_cpxxAVp4EeeH0ODvL8ZA6A"
       name="root">
     <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_YeTJ4FqKEeeXq_j46yErsA"
-        name="Interactive_SVG" checksum="b599fee656bd50105b37a4c0de33b671d2e0c2ac">
+        name="Interactive_SVG" checksum="64fa32333e36b775972f16fea50669c6c92dc3e6">
       <file href="../../model.build#_5dXzAFqKEeeXq_j46yErsA"/>
     </twoDElement>
     <parentPlugs uuid="_cpxxAlp4EeeH0ODvL8ZA6A" name="ParentPlug"/>
