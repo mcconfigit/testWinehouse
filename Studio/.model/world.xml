@@ -19,6 +19,7 @@
         visibility="300">
       <typeSet uuid="_UpHQglsYEeefLOSmi5Doyw" bitSet="393231"/>
     </domain>
+    <domainGlobal href="product_model.xml#_Nc9AQFsiEee2QNXYlSFTNg"/>
   </variables>
   <role uuid="_qucXoHAAEeSk24oMIozLgA" name="insertfree"
       customType="insertfree">
