@@ -117,6 +117,8 @@
       name="tomas1.png" relativePath="testImages/tomas1.png"/>
   <externalResources uuid="_Ln_zUFsuEeeBro-i9pgyng"
       name="error.PNG" relativePath="testImages/error.PNG"/>
+  <externalResources uuid="_XsRdgFsuEeeBro-i9pgyng"
+      name="NPE error.PNG" relativePath="testImages/NPE error.PNG"/>
   <productModel href=".model/product_model.xml#_GD7MEKTqEea8d6P1JTl01w"/>
   <exporterModel href=".model/exporter_model.xml#_GD4IwKTqEea8d6P1JTl01w"/>
   <guiModel href=".model/gui_model.xml#_GDdSAKTqEea8d6P1JTl01w"/>
