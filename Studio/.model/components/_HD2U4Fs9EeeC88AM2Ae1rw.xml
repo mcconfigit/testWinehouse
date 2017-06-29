@@ -2,6 +2,7 @@
 <comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
     uuid="_HD2U4Fs9EeeC88AM2Ae1rw" name="myComponent">
+  <template href="_Vuhj8FsZEeecZJ9Bu5iBqQ.xml#_Vuhj8FsZEeecZJ9Bu5iBqQ"/>
   <geometry deletable="false" uuid="_HD2U4Vs9EeeC88AM2Ae1rw"
       name="root">
     <parentPlugs uuid="_HD2U4ls9EeeC88AM2Ae1rw" name="ParentPlug"/>

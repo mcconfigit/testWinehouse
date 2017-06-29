@@ -9,4 +9,5 @@
     <parentPlugs uuid="_Vuhj8lsZEeecZJ9Bu5iBqQ" name="ParentPlug"/>
   </geometry>
   <componentsUsingMe xsi:type="comp:Component" href="_DGilEFstEeeBro-i9pgyng.xml#_DGilEFstEeeBro-i9pgyng"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_HD2U4Fs9EeeC88AM2Ae1rw.xml#_HD2U4Fs9EeeC88AM2Ae1rw"/>
 </comp:ComponentTemplate>
