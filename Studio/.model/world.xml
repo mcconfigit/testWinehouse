@@ -21,6 +21,8 @@
     </domain>
     <domainGlobal href="product_model.xml#_Nc9AQFsiEee2QNXYlSFTNg"/>
   </variables>
+  <calculation uuid="_1RS4wGFcEeejI-kplqOXww" name="Calculation_Rules"
+      visibility="800"/>
   <role uuid="_qucXoHAAEeSk24oMIozLgA" name="insertfree"
       customType="insertfree">
     <domain uuid="_qucXoXAAEeSk24oMIozLgA" name="local"
