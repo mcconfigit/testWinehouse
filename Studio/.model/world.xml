@@ -14,7 +14,7 @@
     </domain>
   </variables>
   <variables xsi:type="comp:DeclaredVariable" uuid="_UpHQgFsYEeefLOSmi5Doyw"
-      name="myVar" visibility="800">
+      name="myVariable" visibility="800">
     <domain uuid="_UpHQgVsYEeefLOSmi5Doyw" name="local"
         visibility="300">
       <typeSet uuid="_UpHQglsYEeefLOSmi5Doyw" bitSet="393231"/>
