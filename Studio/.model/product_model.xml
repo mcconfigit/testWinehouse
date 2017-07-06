@@ -44,10 +44,10 @@
   </domains>
   <domains uuid="_Nc9AQFsiEee2QNXYlSFTNg" name="GD">
     <typeSet uuid="_Nc9nUFsiEee2QNXYlSFTNg" bitSet="458767"/>
-    <variables xsi:type="comp:DeclaredVariable" href="world.xml#_UpHQgFsYEeefLOSmi5Doyw"/>
   </domains>
   <domains uuid="_OVGJMFsiEee2QNXYlSFTNg" name="GD1">
     <typeSet uuid="_OVGJM1siEee2QNXYlSFTNg" bitSet="458767"/>
+    <variables xsi:type="comp:DeclaredVariable" href="world.xml#_UpHQgFsYEeefLOSmi5Doyw"/>
   </domains>
   <domains uuid="_OtHnoFsiEee2QNXYlSFTNg" name="GD2">
     <typeSet uuid="_OtHno1siEee2QNXYlSFTNg" bitSet="458767"/>
